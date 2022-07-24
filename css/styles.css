@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.nav-header {
+    background-color: #1F2937;
+    color: white;
+    padding: 10px 320px;
+}
+
+.flex-containter {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    color: #F9FAF8;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #667283;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5em;
+    padding: 60px 0 100px 0;
+}
+
+.hero-title {
+    font-size: 3.4em;
+}
+
+.hero-para {
+    font-size: 1.1em;
+    color: #E5E7EB;
+    padding: 20px 0;
+    width: 500px;
+}
+
+.btn {
+    font-size: 1.2em;
+    padding: 5px 35px;
+    border-radius: 10px;
+}
+
+.hero-btn {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+.hero-img {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(135, 143, 160);
+    justify-content: center;
+    align-items: center;
+}
+
+/* main section after hero */
+
+.main-section-one {
+    background-color: white;
+    padding: 10px 320px;
+    margin-bottom: 60px;
+}
+
+.main-header {
+    font-size: 2.5em;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.card-containter {
+    background-color: white;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.drawn-card {
+    background-color: white;
+    border: 5px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card-text {
+    width: 200px;
+}
+
+
+/* 3rd section */
