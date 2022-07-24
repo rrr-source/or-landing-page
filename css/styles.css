@@ -62,7 +62,7 @@ a:hover {
 
 .btn {
     font-size: 1.2em;
-    padding: 5px 35px;
+    padding: 10px 40px;
     border-radius: 10px;
 }
 
@@ -125,3 +125,63 @@ a:hover {
 
 
 /* 3rd section */
+.quotation {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 162px 320px;
+    font-size: 2.1em;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-cap {
+    text-align: right;
+    margin-right: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.main-section-three {
+    padding: 100px 320px;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 200px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.a-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-header {
+    font-size: 1.2em;
+}
+
+.action-para {
+    font-size: 1em;
+}
+
+.main-btn {
+    display: flex;
+    margin-left: auto;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 40px 100px;
+}
